@@ -14,6 +14,7 @@ const projects = () => {
             <img src={IMG1} alt="" />
           </div>
           <a rel="noopener noreferrer" href="https://github.com/HomHom1/DISCORD-BOT" className='btn' target='_blank'>Github</a>
+          <p>Discord bot made with Java only</p>
         </article>
 
         <article className='portfolio__item'>

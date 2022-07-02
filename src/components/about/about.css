@@ -1,0 +1,43 @@
+.about__card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius:1.5rem;
+    padding: 2.5rem;
+    border: 1px solid black;
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.about__card:hover{
+    background-color: transparent;
+
+}
+
+.container.about__container{
+    padding: 7rem;
+}
+
+
+h5{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1024px){
+    .container.about__container{
+        width: 60%;
+
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .container.about__container{
+        width: var(--container-width-sm);
+    }
+    .client__review{
+        width: var(--container-width-sm);
+
+    }
+}

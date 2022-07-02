@@ -13,7 +13,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <a href="https://github.com/HomHom1/DISCORD-BOT" className='btn' target='_blank'>Github</a>
+          <a rel="noopener noreferrer" href="https://github.com/HomHom1/DISCORD-BOT" className='btn' target='_blank'>Github</a>
         </article>
 
         <article className='portfolio__item'>
@@ -21,7 +21,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
             
           </div>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com" rel="noopener noreferrer" className='btn' target='_blank'>Github</a>
         </article>
 
         <article className='portfolio__item'>
@@ -29,7 +29,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
 
           </div>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com" rel="noopener noreferrer" className='btn' target='_blank'>Github</a>
         </article>
 
         <article className='portfolio__item'>
@@ -37,7 +37,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com" rel="noopener noreferrer" className='btn' target='_blank'>Github</a>
         </article>
 
         <article className='portfolio__item'>
@@ -45,7 +45,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
 
           </div>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com" rel="noopener noreferrer" className='btn' target='_blank'>Github</a>
         </article>
 
         <article className='portfolio__item'>
@@ -53,7 +53,7 @@ const projects = () => {
           <div className='portfolio__item-image'>
 
           </div>
-          <a href="https://github.com" className='btn' target='_blank'>Github</a>
+          <a href="https://github.com" rel="noopener noreferrer" className='btn' target='_blank'>Github</a>
         </article>
 
       </div>

@@ -16,7 +16,6 @@ nav{
     
 }
 
-
 nav a.active{
     background: var(--color-text);
     color: var(--color-bg);

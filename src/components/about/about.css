@@ -18,6 +18,18 @@
     padding: 7rem;
 }
 
+.swiper-pagination-bullet {
+    border-color: white;
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.swiper-pagination-bullet:hover{
+    background-color: black !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+}
 
 h5{
     text-align: center;

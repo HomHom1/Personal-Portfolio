@@ -8,11 +8,17 @@ import emailjs from 'emailjs-com'
 const Contact = () => {
   const form = useRef();
 
-  const sendEmail = () => {
-    form.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
     emailjs.sendForm('service_21ipyyb', 'template_mp0ogqx', form.current, 'WSOJE32OaUW7PcoEf')
-    form.target.reset()
+    .then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+
+    e.target.reset()
   };
   return ( 
     <section id='contact' className='contact'>
@@ -35,7 +41,7 @@ const Contact = () => {
               <input type="text" name='name' placeholder='Your Full Name' required/>
               <input type="email" name='email' placeholder='Your Email' required/>
               <textarea name="message" cols="30" rows="7" placeholder='Your Message' required></textarea>
-              <button type='submit' className='btn btn-primary'>Send Message</button>
+              <button type='submit' className='button'>Send Message</button>
           </form> 
       </div>
     </section>
